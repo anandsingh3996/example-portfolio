@@ -1,55 +1,67 @@
-# Data Scientist
-
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+# Researcher
 
 ## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+- M.Tech, Electrical Engineering | Indian Institute of Technology, Gandhinagar (_August 2020_)								       		
+- B.E., Electrical Engineering | L.D. College of Engineering (_June 2018_)	 			        		
 
 ## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
-
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+**Researcher @ Tata Consultancy Services Limited - Research(_September 2020 - Present_)**
+- Conducting research under the guidance of Dr. Mayank Baranwal in the Data and Decision Sciences RA
+- Focusing on developing artificial intelligence-driven control systems to ensure the resilient and efficient operation of power networks and supply chain operations
+- Research Interests: Artificial Intelligence, Power Systems, Reinforcement Learning, Graph Neural Networks, and
+Supply Chains
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+### AI Powered Control and Management of Power Networks 
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+We develop a RL framework, PowRL, to mitigate the effects of unexpected network events, as well as reliably maintain electricity everywhere on the network at all times. The PowRL leverages a novel heuristic for overload management, along with the RL-guided decision making on optimal topology selection to ensure that the grid is operated safely and reliably (with no overloads). Even with its reduced action space, PowRL tops the leaderboard in the L2RPN NeurIPS 2020 challenge (Robustness track) at an aggregate level, while also being the top performing agent in the L2RPN WCCI 2020 challenge. The extension of this work focuses on the
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
+### Cost-Efficient Multi Node, Multi Product Order Fulfillment in E-commerce
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
+We develop an innovative algorithmic framework to optimize cost-to-serve (CTS) in e-commerce, addressing the challenge of efficiently fulfilling dynamically generated orders from multiple customers across various warehouses and vehicle fleets. This project incorporated a two-level decision-making process: firstly, selecting the optimal fulfillment node for each order (including deferral options), and secondly, routing vehicles efficiently to deliver orders from the
+same warehouse. Our approach combined graph neural networks, reinforcement learning, for node fulfillment and vehicle routing, while considering real-world constraints such as warehouse inventory capacity, vehicle characteristics, and customer delivery time windows.
+
+### Multi-Robot Task Allocation in a Dynamic Warehouse Management
+
+We addressed the challenge of optimizing productivity in modern warehousing by developing a heuristic-guided Reinforcement Learning(RL) agent. The project aimed to minimize both robot travel distance and task execution delays while considering practical constraints like charging/discharging and collision-free navigation. The developed RL based framework outperformed industry-standard practices such as FIFO and a myopic greedy heuristic. This innovative approach enhances efficiency and operational agility in dynamic warehousing environments.
+
+### Intelligent Manufacturing Replenishment for Multi-Lead Time Products
+
+We developed a Reinforcement Learning(RL) based framework for optimizing the replenishment process of multiple products with varying lead times. The system efficiently forecasts upcoming demand while considering factors such as shelf life, lead times, and other critical variables. This project showcased the ability to apply advanced AI techniques to enhance manufacturing and supply chain operations.
+
+### Development of a Prosumer Driven Integrated SMART grid
+Contributed to the establishment of a cutting-edge hardware and software platform for Peer-to-Peer (P2P) energy trading at IIT Gandhinagar. The project centered around creating a real-world testbed involving two prosumers (Peer A and Peer B) and a consumer (Peer C). Peer A utilized solar PV and battery energy storage, while Peer B featured electric vehicle (EV) charging capabilities with Vehicle-to-Grid (V2G) functionality. Additionally, the testbed seamlessly interfaced with a Blockchain-based digital platform to demonstrate Peer-to-Peer energy trading in a practical environment. This work aligns with the evolving energy sector’s transformation, facilitating the integration of renewables, operational efficiency improvement, and transactive energy dynamics.
 
 ![Bike Study](/assets/img/bike_study.jpeg)
 
-## Talks & Lectures
-- Causality: The new science of an old question - GSP Seminar, Fall 2021
-- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
-- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
-- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
-- Weeks of Welcome Poster Competition - UTD, Fall 2019
-- A Brief Introduction to Networks - GSP Seminar, Spring 2019
+## Awards & Honours
+- Third prize, Learning to Run Power Network (L2RPN), and RTE France and TU Delft, The Netherlands 2023
+- Platinum Award, Best Technology in Distribution, India Smart Grid Forum (ISGF), 2023
+- Gold Award, Best Technology in Transmission, India Smart Grid Forum (ISGF), 2023
+- POSOCO Power Systems Award for M.Tech thesis, Grid-India(formerly POSOCO) and FITT, 2021
 
-- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
+## Scholastic Achievements
+- Director Fellowship during M.Tech, 2018-2020
+- Certificate of Academic Excellence during B.E., 2017
+- Prime Minister Scholarship Scheme during B.E., 2014-2018
+- 99.13 Percentile in Electrical Enginerring, GATE 2019
 
 ## Publications
-1. Talebi S., Lary D.J., Wijeratne L. OH., and Lary, T. Modeling Autonomic Pupillary Responses from External Stimuli Using Machine Learning (2019). DOI: 10.26717/BJSTR.2019.20.003446
-2. Wijeratne, L.O.; Kiv, D.R.; Aker, A.R.; Talebi, S.; Lary, D.J. Using Machine Learning for the Calibration of Airborne Particulate Sensors. Sensors 2020, 20, 99.
-3. Lary, D.J.; Schaefer, D.; Waczak, J.; Aker, A.; Barbosa, A.; Wijeratne, L.O.H.; Talebi, S.; Fernando, B.; Sadler, J.; Lary, T.; Lary, M.D. Autonomous Learning of New Environments with a Robotic Team Employing Hyper-Spectral Remote Sensing, Comprehensive In-Situ Sensing and Machine Learning. Sensors 2021, 21, 2240. https://doi.org/10.3390/s21062240
-4. Zhang, Y.; Wijeratne, L.O.H.; Talebi, S.; Lary, D.J. Machine Learning for Light Sensor Calibration. Sensors 2021, 21, 6259. https://doi.org/10.3390/s21186259
-5. Talebi, S.; Waczak, J.; Fernando, B.; Sridhar, A.; Lary, D.J. Data-Driven EEG Band Discovery with Decision Trees. Preprints 2022, 2022030145 (doi: 10.20944/preprints202203.0145.v1).
-6. Fernando, B.A.; Sridhar, A.; Talebi, S.; Waczak, J.; Lary, D.J. Unsupervised Blink Detection Using Eye Aspect Ratio Values. Preprints 2022, 2022030200 (doi: 10.20944/preprints202203.0200.v1).
-7. Talebi, S. et al. Decoding Physical and Cognitive Impacts of PM Concentrations at Ultra-fine Scales, 29 March 2022, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-1499191/v1]
-8. Lary, D.J. et al. (2022). Machine Learning, Big Data, and Spatial Tools: A Combination to Reveal Complex Facts That Impact Environmental Health. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_12
-9. Wijerante, L.O.H. et al. (2022). Advancement in Airborne Particulate Estimation Using Machine Learning. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_13
+1. Chauhan, A., Baranwal, M. and Basumatary, A., 2023. PowRL: A Reinforcement Learning Framework for Robust Management of Power Networks. Proceedings of the AAAI Conference on Artificial Intelligence, 2023. AAAI. [Acceptance Rate - 19.2%] doi:10.1609/aaai.v37i12.26724
+2. Chauhan, A., Shelke, O., Pathakota, P., Meisheri, H., Khadilkar, H., and Ravindran, B. A Learning Approach for Discovering Cost-Efficient Integrated Sourcing and Routing Strategies in E-Commerce. Accepted at Applied Data Science track at CODS-COMAD 2024.
+3. Shelke, O., Pathakota, P., Chauhan, A., Meisheri, H., Khadilkar, H., and Ravindran, B. Multi-Agent Learning of Efficient Fulfilment and Routing Strategies in E-Commerce, Accepted at NeurIPS Generalization in Planning workshop 2023.
+4. R. B. Kuhada, Chauhan, A.,, and N. M. Pindoriya, Real-time simulation of V2G operation for EV battery, 21st National Power Systems Conference (NPSC), 2020 doi: 10.1109/NPSC49263.2020.9331873
+5. Pal, A., Ojha, A., Chauhan, A., and Baranwal, M. Heuristic-guided Reinforcement Learning for Multi-robot Task Allocation in Dynamic Warehouse Environments. (Submitted at the Proceedings of the Autonomous Agents and Multiagent Systems(AAMAS), 2024.)
+6. Chauhan, A., Suthar, S., Kuhada, R., Cherukuri, S., and Pindoriya, N., Peer-to-Peer Energy Trading Framework: An Experimental Evaluation (Under Review)
 
-- [Data Science Blog](https://medium.com/@shawhin)
+## Patents
+1. Chauhan, A., Baranwal, M., 2023. Reinforcement Learningand heuritsic based real time power grid management , U.S. Patent 18/348,952 filed July 7, 2023. Patent filed
+2. Chauhan, A., Baranwal, M., 2022. Reinforcement Learningand heuritsic based real time power grid management, India Patent 202221069773 filed Dec 2, 2022. Patent filed
+3. Pindoriya, N., Chauhan, A., Kuhada R., Jha M., 2022. Universal IoT based smart energy management device, India Patent 202221028935 Patent under review
+
+#### Technical Skills:
+- Computer Programming: Python, PyTorch, Tensorflow, MATLAB, HTML, SQL
+- Other Professional Software Skills: Simulink, PSSE, LATEX
+- Hardware Skills: Lab-Volt, OPAL-RT, Raspberry Pi
